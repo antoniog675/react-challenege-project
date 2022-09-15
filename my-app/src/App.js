@@ -1,10 +1,10 @@
 import css from './App.module.css';
-import StatefulGreeting from './components/StatefulGreeting';
+import NavBarSimple from './components/NavBar';
 
 function App() {
   return (
     <div className={css.App}>
-      <StatefulGreeting greeting="I'm a stateful class component" name="Antonio"/>
+      <NavBarSimple />
     </div>
   );
 }
