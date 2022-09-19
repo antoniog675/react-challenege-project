@@ -1,10 +1,12 @@
 import css from './App.module.css';
-import NavBarSimple from './components/NavBar';
+import EventsClass from './components/EventsClass';
+import EventsFunctionality from './components/Events.Functionality';
 
 function App() {
   return (
     <div className={css.App}>
-      <NavBarSimple />
+      <EventsClass />
+      <EventsFunctionality />
     </div>
   );
 }
