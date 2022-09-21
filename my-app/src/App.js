@@ -1,11 +1,10 @@
 import css from './App.module.css';
-import MethodsAsPropsParent from './components/MethodsAsPropsParent';
-import NestingComponents from './components/NestingComponents';
+import RenderingLists from './components/RenderingLists';
 
 function App() {
   return (
     <div className={css.App}>
-      <MethodsAsPropsParent />
+      <RenderingLists />
     </div>
   );
 }
