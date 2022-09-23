@@ -1,10 +1,10 @@
 import css from './App.module.css';
-import Content from './components/Content';
+import LifeCyclesCDM from './components/LifeCyclesCDM';
 
 function App() {
   return (
     <div className={css.App}>
-      <Content />
+      <LifeCyclesCDM />
     </div>
   );
 }
