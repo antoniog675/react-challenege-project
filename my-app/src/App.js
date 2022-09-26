@@ -1,4 +1,5 @@
 import css from './App.module.css';
+import UseEffectCounter from './components/UseEffectCounter';
 // import SearchBar from './components/SearchBar';
 // import Content from './components/Content';
 // import UseStateWithArrays from './components/UseStateWithArrays';
@@ -10,7 +11,8 @@ function App() {
       {/* <SearchBar /> */}
       {/* <Content /> */}
       {/* <UseStateWithArrays /> */}
-      <UseStateWithObjects />
+      {/* <UseStateWithObjects /> */}
+      <UseEffectCounter />
     </div>
   );
 }
