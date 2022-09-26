@@ -1,17 +1,14 @@
 import css from './App.module.css';
 // import SearchBar from './components/SearchBar';
 // import Content from './components/Content';
-// import HooksCounter from './components/HooksCounter';
-import ControlledForm from './components/ControlledForm';
-import ControlledFormsHooks from './components/ControlledFormsHooks';
+import UseStateWithArrays from './components/UseStateWithArrays';
 
 function App() {
   return (
     <div className={css.App}>
       {/* <SearchBar /> */}
       {/* <Content /> */}
-      {/* <HooksCounter/> */}
-      <ControlledFormsHooks/>
+      <UseStateWithArrays />
     </div>
   );
 }
