@@ -5,17 +5,27 @@ function UseEffectCounter() {
     const [time, setTime] = useState(0);
 
     useEffect(() => {
+        console.log("count 1 effect")
         document.title = count; 
     }, [count]);
     useEffect(() => {
-        console.log("creating time");
+        console.log("creating timer");
         const interval = setInterval(() => {
+            console.log("interval executed")
             setTime(time => time + 1)
-        }, 1000)
+        }, 1000);
+        return () => {
+            console.log("cleaning up")
+            clearInterval(interval);
+        }
     }, []);
   return (
     <div>
-        <button onClick={() => setCount(count => count + 1)}>Increment count: {count}</button>
+        <button onClick={
+            () => setCount(count => count + 1)
+            }>
+                Increment count: ({count})
+        </button>
         <h2>Time is {time}</h2>
     </div>
   )
