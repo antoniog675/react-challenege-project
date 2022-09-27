@@ -1,12 +1,12 @@
 import css from './App.module.css';
-import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 import HTTPHooks from './components/HTTPHooks';
 import PostItemAPI from './components/PostItemAPI';
 
 function App() {
   return (
     <div className={css.App}>
-      <ContentAPI />
+      <ContentAPIHooks />
     </div>
   );
 }
