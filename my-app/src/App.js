@@ -1,12 +1,10 @@
 import css from './App.module.css';
-import ContentHooks from './components/ContentHooks';
+import HTTPRequests from './components/HTTPRequests';
 
 function App() {
   return (
     <div className={css.App}>
-      {/* <SearchBar /> */}
-      {/* <UseEffectCounterContainer /> */}
-      <ContentHooks />
+      <HTTPRequests />
     </div>
   );
 }
